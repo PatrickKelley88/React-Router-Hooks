@@ -1,0 +1,10 @@
+.movieInfo {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: .5rem;
+}
+
+.movieInfo img {
+    width: 100%;
+    border-radius: 12px;
+}
