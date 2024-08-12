@@ -16,7 +16,7 @@ function HomePage() {
                 setWatchList([...watchList, movieTitle]);
                 setMovieTitle("");
             }}>
-                <label htmlFor="movieInput">Enter movie to watch later</label>
+                <label htmlFor="movieInput">Add Movie to Watchlist</label>
                 <input 
                     type="text" 
                     name="movieInput" 

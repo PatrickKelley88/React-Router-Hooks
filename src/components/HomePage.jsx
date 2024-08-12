@@ -28,7 +28,6 @@ function HomePage() {
                     }}
                 /> 
                 <button>Add Movie</button>
-            </form>
             <ul id="watchlist"> 
                 {watchList.map((title, index) => {
                     return <li key={index}>{title}</li>
@@ -43,6 +42,7 @@ function HomePage() {
                     <p>Gleaming the Cube</p>
                 </li>
             </ul>
+            </form>
         </>
     )
 }
